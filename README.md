@@ -24,4 +24,18 @@
   
    ` kubectl proxy `
     
-  ## 
+  ## List resources
+  
+   ` kubectl get `
+   
+  ## Show detailed Info about a resource
+  
+    ` kubectl describe pods`
+    
+  ## Print the logs from a container in a pod
+  
+    ` kubectl logs `
+    
+  ## Execute a command on a container in a pod
+  
+    ` kubectl exec `
